@@ -8,6 +8,7 @@ html,
 body {
   overflow-x: hidden;
   background-color: #F5F5F5;
+  min-height: 100vh;
 }
 a {
   color: inherit;
@@ -137,16 +138,11 @@ a {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin: 1rem;
 }
 
 .reviewData{
   width: 100%;
   gap: 0.5rem;
-}
-
-.reviewList{
-  margin-bottom: 4rem;
 }
 
 .name_rating{

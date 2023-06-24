@@ -8,8 +8,8 @@ export default async function FilmPage(props){
   return (
     <>
       <FilmCard film={film}/>
-      <div className='TicketList flex_column reviewList'>
-        {reviews.map((review) => <Review review={review}/>)}
+      <div className='ticketList flex_column'>
+        {reviews.map((review) => <Review key={review.id}review={review}/>)}
       </div>
     </>
     
