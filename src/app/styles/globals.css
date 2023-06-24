@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #F5F5F5;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  background: #333333;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+  font-weight: 700;
+  font-size: x-large;
+  position: fixed;
+  z-index: 10;
+}
+
+.footer{
+  display: flex;
+  background: #333333;
+  color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+  font-weight: 400;
+  position: absolute;
+  bottom: 0;
+}
+
+.wrapper{
+  position: relative;
+}
+
+.main{
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+}
+
+.ticketCard {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.searchMenu{
+  width: 30%;
+  margin: 0.5rem 1rem;
+}
+
+.ticketList{
+  flex-grow: 1;
+  gap: 1.2rem;
+  margin: 0.5rem 1rem;
+}
+
+.homepage{
+  display: flex;
+  flex-direction: row;
+}
+
+.ticketImage{
+  border-radius: 0.4rem;
+}
+
+.ticketTitle{
+  color: var(--text-primary, #1B1F23);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.filmTitle{
+  color: var(--text-primary, #1B1F23);
+  font-weight: 700;
+  font-size: 32px;
+  cursor: default;
+}
+
+.filmGenre{
+  color: var(--text-primary, #1B1F23);
+  font-style: italic;
+  line-height: 20px;
+  cursor:default;
+}
+
+.filmCard{
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  gap: 2rem;
+}
+.filmDetails{
+  cursor: default;
+}
+.filmImage{
+  border-radius: 0.4rem;
+}
+
+
+.description{
+  color: var(--text-primary, #1B1F23);
+  line-height: 24px;
+  font-size: 16px;
+  width: 100%;
+  cursor:default;
+}
+
+.descTitle{
+  color: var(--text-primary, #1B1F23);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  cursor:default;
+}
+
+.filmMetadata{
+  gap: 1rem;
+}
+
+.descriptionBlock{
+  gap: 0.5rem;
+}
+
+.review{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.reviewData{
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.reviewList{
+  margin-bottom: 4rem;
+}
+
+.name_rating{
+  display: flex;
+  justify-content: space-between;
+}
+
+.large_roboto{
+  font-size: large;
+  cursor: default;
+}
+.strong_roboto{
+  font-weight: 700;
+  cursor: default;
+}
+
+.card{
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.flex_column{
+  display: flex;
+  flex-direction: column;
+}
+
+details summary {
+  list-style-type: none;
+  padding: 0.5rem 0rem;
+  position: relative;
+  cursor: pointer;
+}
+
+summary::after {
+  content: url("/images/arrow_down.svg");
+  position: absolute;
+  right: 0;
+  color: #fff;
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: -5px 10px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+
+details[open] summary::after {
+  content: url("/images/arrow_up.svg");
+}
+
+.aboutlist{
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.about{
+  margin: 1rem;
+}
