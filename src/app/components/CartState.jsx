@@ -7,5 +7,5 @@ export default function CartState() {
             0
         )
     )
-    return <div className='cartInfo'>{ticketsCount}</div>
+    return ticketsCount > 0 && <div className='cartInfo'>{ticketsCount}</div>
 }
