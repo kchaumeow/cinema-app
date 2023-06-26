@@ -281,13 +281,12 @@ select{
     background-repeat: no-repeat;
     background-position-x: 97%;
     background-position-y: center;
-    padding-right: 2rem;
     appearance: none;
 }
 select:focus {
     background-image: url("/images/arrow_up.svg");
     background-repeat: no-repeat;
-    background-position-x: 99%;
+    background-position-x: 97%;
     background-position-y: center;
 }
 option{
