@@ -1,7 +1,7 @@
-import {configureStore} from "@reduxjs/toolkit";
-import filmsReducer from "./filmsSlice";
+import { configureStore } from '@reduxjs/toolkit'
+import ticketSlice from './ticketSlice'
 export default configureStore({
-  reducer: {
-    filmsReducer
-  }
+    reducer: {
+        ticketSlice,
+    },
 })
